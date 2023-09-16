@@ -1,0 +1,22 @@
+{
+    "name": "app/api",
+    "autoload": {
+        "psr-4": {
+            "App\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "XArcangelll",
+            "email": "Xx-Arcangel@hotmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "samayo/bulletproof": "4.0.*",
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.8"
+    }
+}
