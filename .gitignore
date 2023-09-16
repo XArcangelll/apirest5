@@ -1,4 +1,6 @@
 # Ignorar .env
 .env
 src/Logs/php-error.log
-public/Images/*
+*.jpeg
+*.jpg 
+*.png
